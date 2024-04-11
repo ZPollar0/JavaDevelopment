@@ -1,5 +1,3 @@
-package com.pluralsight;
-
 import java.util.Scanner;
 
 public class PayrollCalculator {
@@ -8,15 +6,15 @@ public class PayrollCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // Tell the user to input their name.
-        System.out.println("Please input your name:");
+        System.out.println("Please input your name.");
         String name = scanner.next();
 
         // Tell the user to input their hours worked.
-        System.out.println("Please input your hours worked:");
+        System.out.println("Please input your hours worked.");
         int hoursWorked = scanner.nextInt();
 
         // Tell the user to input their pay rate.
-        System.out.println("Please input your pay rate:");
+        System.out.println("Please input your pay rate.");
         double payRate = scanner.nextDouble();
 
         // Ask user if they worked overtime.
