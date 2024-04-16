@@ -6,5 +6,15 @@ public class FullNameParser {
         Scanner scanner = new Scanner(System.in);
         String fullName;
         String nameArray[];
+
+        System.out.println("Please enter your name.");
+        fullName = scanner.nextLine();
+        fullName =fullName.trim();
+        nameArray =fullName.split(" ");
+
+        if (nameArray.length==2){
+
+        }
+
     }
 }
