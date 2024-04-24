@@ -1,6 +1,5 @@
 
-import com.pluralsight.Product;
-
+package workbook_3;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,6 +7,51 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
+
+class Product {
+    // Create the variables, as private.
+    private int id;
+    private String name;
+    private double price;
+
+    // Create the constrcutor.
+    public Product(int id, String name, double price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+
+    // Create the setter and getters.
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    // Create an override to properly read and print products.csv
+    @Override
+    public String toString() {
+        return "ID: " + id + ", Name: " + name + ", Price: $" + price;
+    }
+}
 
 public class SearchInventory {
     // Initalize the scanner.
@@ -162,7 +206,7 @@ public class SearchInventory {
                     double price = Double.parseDouble(parts[2]);
 
                     // Add the items to the array.
-                    inventory.add(new Product(id,name,price));
+                    inventory.add(new Product(id, name, price));
                 }
             }
             // Print error if it runs into an error.
