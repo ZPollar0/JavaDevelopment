@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HotelDriver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Employee employee1 = new Employee();
+        /*Employee employee1 = new Employee();
         employee1.setHoursWorked(40);
         System.out.println("What time did you start work?");
         double startTime = scanner.nextDouble();
@@ -17,7 +17,7 @@ public class HotelDriver {
         employee1.setDepartment("IT");
         employee1.setPayRate(20.00);
                 new Employee(1,
-                "Zamir Pollard", "IT",
+                "Ezra Williams", "IT",
                 20.00, 45);
         System.out.println(employee1.getHoursWorked());
         System.out.println(employee1.getOvertimeHours());
@@ -43,7 +43,7 @@ public class HotelDriver {
         res1.setWeekend(true);
         res1.setNumberOfNights(3);
         System.out.println(res1.getPrice());
-        System.out.println(res1.getReservationTotal());
+        System.out.println(res1.getReservationTotal());*/
 
         /*
         We have a hotel and has 10 suites and 10 normal room
@@ -79,7 +79,7 @@ public class HotelDriver {
         Room[] basic = {room11, room12, room13, room14, room15, room16, room17, room18, room19, room20};
 
         //Create a hotel object:
-        Hotel ezraHotel = new Hotel("Ezra's Hotel",10,10,
+        Hotel zamirHotel = new Hotel("Zamir's Hotel",10,10,
                 0,0);
         //Someone comes in and they want to book a suite:
         Reservation res = new Reservation();
@@ -90,7 +90,7 @@ public class HotelDriver {
         //show the user the total cost:
         System.out.println(res.getReservationTotal());
         //they agree so we book the room:
-        ezraHotel.bookRoom(1, true);
+        zamirHotel.bookRoom(1, true);
         room1.setOccupied(true);
         room1.setDirty(true);
 
@@ -101,6 +101,6 @@ public class HotelDriver {
             }
         }
 
-        System.out.println(ezraHotel.getAvailableSuites());
+        System.out.println(zamirHotel.getAvailableSuites());
     }
 }
