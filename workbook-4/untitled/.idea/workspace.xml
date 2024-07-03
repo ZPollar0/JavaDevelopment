@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e700e8-53b9-42e6-98c4-7a4849377e16" name="Changes" comment="Updated and tested several classes.">
-      <change afterPath="$PROJECT_DIR$/../workbook4/src/main/java/com/pluralsight/Blackjack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook4/src/main/java/com/pluralsight/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook4/src/main/java/com/pluralsight/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook4/src/main/java/com/pluralsight/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook4/src/main/java/com/pluralsight/NameFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workbook4/src/main/java/com/pluralsight/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workbook-5/LearningInheritance/src/main/java/com/pluralsight/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workbook-5/LearningInheritance/src/main/java/com/pluralsight/Moped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workbook-5/LearningInheritance/src/main/java/com/pluralsight/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AccountingLedger" beforeDir="false" afterPath="$PROJECT_DIR$/../../AccountingLedger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/HotelDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/HotelDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-6/Portfolio/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-6/Portfolio/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-6/Portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-6/Portfolio/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
