@@ -6,27 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NeighborhoodLibrary" />
         <module name="OnlineStore" />
         <module name="easyshop-capstone-starter" />
         <module name="Week3" />
         <module name="AccountingLedger" />
-        <module name="FullNameGenerator (1)" />
         <module name="Week3Work" />
         <module name="NeighborhoodLibrary (1)" />
         <module name="TurtlePaint" />
         <module name="financial-ledger" />
-        <module name="Week3Work (1)" />
         <module name="CarDealershipv2" />
         <module name="JBDCDealership" />
         <module name="AdvDealership" />
         <module name="First-Maven-Project" />
         <module name="FullNameGenerator" />
-        <module name="OnlineStore (1)" />
-        <module name="First-Maven-Project (1)" />
-        <module name="Week3 (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="First-Maven-Project (1)" target="22" />
+      <module name="FullNameGenerator (1)" target="17" />
+      <module name="NeighborhoodLibrary" target="17" />
+      <module name="OnlineStore (1)" target="17" />
+      <module name="Week3 (1)" target="17" />
+      <module name="Week3Work (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

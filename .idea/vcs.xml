@@ -3,12 +3,10 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AccountingLedger" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/CarDealershipAPI" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/EasyShopCapstone" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/EasyShopCapstone/capstone-starter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Financial-Ledger-AceEngineers-Version-1.0" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/JBDCDealership" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/JavaDevelopment" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adv-dealership-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adv-dealership-project/AdvDealership" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/car-dealership" vcs="Git" />
